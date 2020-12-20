@@ -15,7 +15,7 @@
 
 - 뒷면을 확인합니다.
 
-<img src="https://github.com/sur2/Xmas_Letter/blob/main/%EC%95%9E%EB%A9%B4.JPG?raw=true" alt="앞면" width="50%" height="50%" align="left" />
+<img src="https://github.com/sur2/Xmas_Letter/blob/main/%EC%95%9E%EB%A9%B4.JPG?raw=true" alt="앞면" width="50%" height="50%"/>
 
 
 
@@ -23,7 +23,7 @@
 
 - 뒷면의 이미지를 클릭한다면?
 
-<img src="https://github.com/sur2/Xmas_Letter/blob/main/%EB%92%B7%EB%A9%B4.JPG?raw=true" alt="앞면" width="50%" height="50%" align="left" />
+<img src="https://github.com/sur2/Xmas_Letter/blob/main/%EB%92%B7%EB%A9%B4.JPG?raw=true" alt="앞면" width="50%" height="50%"/>
 
 
 
