@@ -1,0 +1,101 @@
+* {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+body {
+    background-color: #9b070f;
+}
+
+.envelope {
+    width: 200px;
+    height: 200px;
+
+    background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+    background-size: cover;
+    background-position: center;
+
+    margin: 200px auto 0px auto;
+
+    cursor: pointer;
+}
+
+.envelope-msg {
+    color: white;
+    text-align: center;
+}
+
+.letter-close {
+    display: block;
+}
+
+.letter-open {
+    display: none;
+}
+
+.rtan {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+
+    background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/rtan.gif');
+    background-size: cover;
+    background-position: center;
+
+    margin: 100px auto 0px auto;
+
+    border-radius: 100px;
+    border: 5px solid white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+.messagebox {
+    padding: 30px;
+    margin: auto;
+
+    background-color: ivory;
+    width: 300px;
+
+    color: brown;
+    font-size: 20px;
+    line-height: 30px;
+
+    border-radius: 10px;
+    border: 5px solid white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+.from {
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+/*반응형: max-width: 넓이 이하에서 적용*/
+@media screen and (max-width: 760px) {
+    .messagebox {
+        width: 70%;
+        padding: 5%;
+    }
+
+    .rtan {
+        width: 150px;
+        height: 150px;
+        margin: 70px auto 0px auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .envelope {
+        margin: 150px auto 0px auto;
+    }
+}

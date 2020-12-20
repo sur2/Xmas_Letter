@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Letter</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon"
+        href="https://icons.iconarchive.com/icons/icons8/christmas-flat-color/256/christmas-tree-icon.png">
+
+    <!--링크 미리보기: OpenGraph Tag(op)-->
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1544277879-42659615e478?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1056&q=80">
+    <meta property="og:title" content="똑똑!">
+    <meta property="og:description" content="2020 Merry Christmas">
+
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    </script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+        <h2 class="envelope-msg">봉투 열어봐!</h2>
+    </div>
+
+    <div class="letter-open">
+        <div class="rtan" onclick="go_rtan()"></div>
+        <h1><span class="h1_year"></span>년 수고했따!!!</h1>
+        <div class="messagebox">
+
+            친구여~ <br />
+            잘 지내는가? <br />
+            올해도 벌써 끝이 나는구먼 <br />
+            다들 한 해 마무리 잘 하고 <br />
+            아직 못 이룬 것은 내년에는 반드시 이루자고! <br />
+            가즈야~~!! <br />
+
+            <p class="from"><span class="this_year"></span>.12.25 PYong</p>
+            <script type="text/javascript" src="js/getYear.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
